@@ -1,0 +1,37 @@
+Note - I have tested the below steps while installing MiniConda on Windows10 on my user environment. 
+
+The commands below are run on Command Prompt 
+
+1. Create Virtual Environment on cmd -
+
+conda create --name py_mitidss python=3.9 
+
+py_mitidss is the name of the virtual environment. Feel free to rename the virtual environment as required. 
+
+2. List all Virtual Environments on your system 
+
+conda env list
+
+3. Activate your Virtual Environment 
+
+conda activate py_mitidss
+
+4. See list of packages installed 
+
+pip list
+
+5. Install following packages to run Jupyter Notebook from Virtual Environment
+
+pip install notebook
+
+6. Run any other packages you require on the notebook such as 
+
+pip install numpy pandas sklearn matplotlib seaborn
+
+7. Run Jupyter notebook by giving the command below -
+
+jupyter notebook
+
+
+
+
